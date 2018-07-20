@@ -1,5 +1,5 @@
 {
-    "name": "meno-pro/theme-validator",
+    "name": "meno-pro/theme-suite",
     "description": "Meno Theme Validator",
     "type": "library",
     "homepage": "https://meno.pro/",
@@ -12,7 +12,7 @@
     ],
     "autoload": {
     	"psr-4":{
-    		"Meno\\Validator\\": "src"
+    		"Meno\\Themes\\": "src"
     	}
     },
     "require": {
