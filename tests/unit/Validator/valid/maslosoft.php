@@ -1,15 +1,4 @@
 <?php
-
-use Maslosoft\Widgets\Breadcrumbs;
-use Maslosoft\Widgets\Html\Decorator;
-use Maslosoft\Widgets\JavaScript\Packages\HighlightJsPackage;
-use Maslosoft\Widgets\Search\SearchDrawer;
-use Maslosoft\Cms\Widgets\Menu\LinkBlocks;
-use Maslosoft\Cms\Widgets\Menu\PageLinks;
-use Maslosoft\Social\Widgets\SocialIcons;
-
-?>
-<?php
 // TODO Add this factory method
 HighlightJsPackage::withStyle('rainbow');
 ?>

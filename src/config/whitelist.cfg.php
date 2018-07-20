@@ -28,15 +28,7 @@ return [
 				'SearchDrawer::widget',
 				'LinkBlocks::widget',
 				'PageLinks::widget',
-				'SocialIcons::widget',
-
-				'Maslosoft\Widgets\Breadcrumbs::widget',
-				'Maslosoft\Widgets\Html\Decorator::copyright',
-				'Maslosoft\Widgets\JavaScript\Packages\HighlightJsPackage::withStyle',
-				'Maslosoft\Widgets\Search\SearchDrawer::widget',
-				'Maslosoft\Cms\Widgets\Menu\LinkBlocks::widget',
-				'Maslosoft\Cms\Widgets\Menu\PageLinks::widget',
-				'Maslosoft\Social\Widgets\SocialIcons::widget',
+				'SocialIcons::widget'
 			]
 		]
 	]

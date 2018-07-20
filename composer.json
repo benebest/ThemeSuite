@@ -13,7 +13,10 @@
     "autoload": {
     	"psr-4":{
     		"Meno\\Themes\\": "src"
-    	}
+    	},
+        "files": [
+            "src/Aliases.php"
+        ]
     },
     "require": {
     	"maslosoft/whitelist": "^1"
