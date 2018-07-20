@@ -9,6 +9,8 @@
 namespace Meno\Themes;
 
 
+use Maslosoft\EmbeDi\Adapters\ArrayAdapter;
+use Maslosoft\EmbeDi\EmbeDi;
 use Maslosoft\Whitelist\Whitelist;
 
 /**
@@ -19,6 +21,13 @@ class MenoList extends Whitelist
 {
 	public function __construct($config = ThemeValidator::WhitelistId)
 	{
+		static $initialized = false;
+		if(!$initialized)
+		{
+			$cfg = require __DIR__ . '/config/whitelist.cfg.php';
+			EmbeDi::fly()->addAdapter(new ArrayAdapter($cfg));
+			$initialized = true;
+		}
 		parent::__construct($config);
 	}
 }

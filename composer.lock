@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "98d95b7f85f52f03acc7bb571cc97be1",
+    "content-hash": "18f6cf59cdc94ace3e0b3fdf6a6ded44",
     "packages": [
         {
             "name": "maslosoft/cli-shared",
@@ -98,24 +98,25 @@
         },
         {
             "name": "maslosoft/whitelist",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maslosoft/Whitelist.git",
-                "reference": "9cfbb347fa0dd834acdb6d8345992f09a0022f72"
+                "reference": "6d884442272e406e744fafe6874cea6343d22f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maslosoft/Whitelist/zipball/9cfbb347fa0dd834acdb6d8345992f09a0022f72",
-                "reference": "9cfbb347fa0dd834acdb6d8345992f09a0022f72",
+                "url": "https://api.github.com/repos/Maslosoft/Whitelist/zipball/6d884442272e406e744fafe6874cea6343d22f70",
+                "reference": "6d884442272e406e744fafe6874cea6343d22f70",
                 "shasum": ""
             },
             "require": {
                 "maslosoft/cli-shared": "*",
-                "maslosoft/embedi": "*"
+                "maslosoft/embedi": "*",
+                "psr/log": "^1.0"
             },
             "require-dev": {
-                "codeception/codeception": "^2.1",
+                "codeception/codeception": "^2",
                 "maslosoft/hedron": "*"
             },
             "type": "library",
@@ -136,7 +137,7 @@
                 }
             ],
             "description": "PHP Code whitelister",
-            "time": "2016-01-28T11:12:47+00:00"
+            "time": "2018-07-20T14:00:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1020,16 +1021,16 @@
         },
         {
             "name": "maslosoft/hedron",
-            "version": "1.1.18",
+            "version": "1.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Maslosoft/Hedron.git",
-                "reference": "d1b853f62030c755814dafb215d213fd9178b5e3"
+                "reference": "bd5ea72a62959312e5ce46058b97c4eb11607093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Maslosoft/Hedron/zipball/d1b853f62030c755814dafb215d213fd9178b5e3",
-                "reference": "d1b853f62030c755814dafb215d213fd9178b5e3",
+                "url": "https://api.github.com/repos/Maslosoft/Hedron/zipball/bd5ea72a62959312e5ce46058b97c4eb11607093",
+                "reference": "bd5ea72a62959312e5ce46058b97c4eb11607093",
                 "shasum": ""
             },
             "require": {
@@ -1062,7 +1063,7 @@
             ],
             "description": "PHP source code class header applier",
             "homepage": "https://maslosoft.com/hedron/",
-            "time": "2018-06-29T08:37:32+00:00"
+            "time": "2018-07-20T09:43:58+00:00"
         },
         {
             "name": "maslosoft/signals",

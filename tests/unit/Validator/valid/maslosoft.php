@@ -10,8 +10,8 @@ use Maslosoft\Social\Widgets\SocialIcons;
 
 ?>
 <?php
-$p = new HighlightJsPackage;
-$p->setStyle('rainbow');
+// TODO Add this factory method
+HighlightJsPackage::withStyle('rainbow');
 ?>
 <div id="mainWrapper">
 	<div class="container">
@@ -54,7 +54,7 @@ $p->setStyle('rainbow');
 		<div class="layout">
 			<?php
 			echo Breadcrumbs::widget([
-				'homeLink' => [tx('Home page') => (string) Yii::app()->baseUrl . '/'],
+				'homeLink' => [tx('Home page') => (string) $homeUrl . '/'],
 				'links' => $this->breadcrumbs,
 				'encodeLabel' => false,
 				'separator' => ' <i class="fa fa-angle-right"></i> '
