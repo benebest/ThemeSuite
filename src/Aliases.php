@@ -13,6 +13,7 @@
 			'Maslosoft\\Widgets\\Search\\SearchDrawer',
 			'Maslosoft\\Cms\\Widgets\\Menu\\LinkBlocks',
 			'Maslosoft\\Cms\\Widgets\\Menu\\PageLinks',
+			'Maslosoft\\Cms\\Widgets\\PartialBlock',
 			'Maslosoft\\Social\\Widgets\\SocialIcons',
 		];
 	}
@@ -27,6 +28,7 @@
 			'Meno\\Themes\\Stubs\\SearchDrawer',
 			'Meno\\Themes\\Stubs\\LinkBlocks',
 			'Meno\\Themes\\Stubs\\PageLinks',
+			'Meno\\Themes\\Stubs\\PartialBlock',
 			'Meno\\Themes\\Stubs\\SocialIcons',
 		];
 	}
@@ -35,7 +37,7 @@
 	{
 		function tx($message, $context = '')
 		{
-			return '';
+			return $message;
 		}
 	}
 
