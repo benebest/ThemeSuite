@@ -57,7 +57,7 @@
 
 			if(is_readable($filename))
 			{
-				$existing = file_get_contents($existing);
+				$existing = file_get_contents($filename);
 			}
 
 			$content = <<<PHP
