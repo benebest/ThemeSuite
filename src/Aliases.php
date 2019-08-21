@@ -15,6 +15,7 @@
 			'Maslosoft\\Cms\\Widgets\\Menu\\PageLinks',
 			'Maslosoft\\Cms\\Widgets\\PartialBlock',
 			'Maslosoft\\Social\\Widgets\\SocialIcons',
+			'Maslosoft\\Shop\\Widgets\\CartIcon',
 		];
 	}
 	else
@@ -22,14 +23,15 @@
 		$isSuite = true;
 		// In Theme Suite
 		$classes = [
-			'Meno\\Themes\\Stubs\\Breadcrumbs',
-			'Meno\\Themes\\Stubs\\Decorator',
-			'Meno\\Themes\\Stubs\\HighlightJsPackage',
-			'Meno\\Themes\\Stubs\\SearchDrawer',
-			'Meno\\Themes\\Stubs\\LinkBlocks',
-			'Meno\\Themes\\Stubs\\PageLinks',
-			'Meno\\Themes\\Stubs\\PartialBlock',
-			'Meno\\Themes\\Stubs\\SocialIcons',
+			'Maslosoft\\Themes\\Stubs\\Breadcrumbs',
+			'Maslosoft\\Themes\\Stubs\\Decorator',
+			'Maslosoft\\Themes\\Stubs\\HighlightJsPackage',
+			'Maslosoft\\Themes\\Stubs\\SearchDrawer',
+			'Maslosoft\\Themes\\Stubs\\LinkBlocks',
+			'Maslosoft\\Themes\\Stubs\\PageLinks',
+			'Maslosoft\\Themes\\Stubs\\PartialBlock',
+			'Maslosoft\\Themes\\Stubs\\SocialIcons',
+			'Maslosoft\\Themes\\Stubs\\CartIcon',			
 		];
 	}
 
@@ -45,7 +47,7 @@
 	{
 		$pos = strrpos($className, '\\') + 1;
 		$shortName = substr($className, $pos);
-		class_alias($className, $shortName);
+		@class_alias($className, $shortName);
 
 		// Generate stubs for IDE
 		if($isSuite && PHP_SAPI === 'cli')

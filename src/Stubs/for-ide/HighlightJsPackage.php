@@ -1,5 +1,5 @@
 <?php
 // Auto generated for IDE. Do not modify.
-class HighlightJsPackage extends Meno\Themes\Stubs\HighlightJsPackage
+class HighlightJsPackage extends Maslosoft\Themes\Stubs\HighlightJsPackage
 {
 }

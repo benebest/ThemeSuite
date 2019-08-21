@@ -1,5 +1,5 @@
 <?php
 // Auto generated for IDE. Do not modify.
-class Breadcrumbs extends Meno\Themes\Stubs\Breadcrumbs
+class Breadcrumbs extends Maslosoft\Themes\Stubs\Breadcrumbs
 {
 }

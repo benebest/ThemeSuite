@@ -1,12 +1,11 @@
 <?php
 
-use Maslosoft\Whitelist\Whitelist;
-use Meno\Themes\MenoList;
-use Meno\Themes\ThemeValidator;
+use Maslosoft\Themes\ThemeWhitelist;
+use Maslosoft\Themes\ThemeValidator;
 
 return [
 	ThemeValidator::WhitelistId => [
-		'class' => MenoList::class,
+		'class' => ThemeWhitelist::class,
 		'whitelist' => [
 			'variables' => [
 				'content',

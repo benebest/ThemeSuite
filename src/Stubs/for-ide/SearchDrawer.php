@@ -1,5 +1,5 @@
 <?php
 // Auto generated for IDE. Do not modify.
-class SearchDrawer extends Meno\Themes\Stubs\SearchDrawer
+class SearchDrawer extends Maslosoft\Themes\Stubs\SearchDrawer
 {
 }

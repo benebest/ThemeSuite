@@ -6,7 +6,7 @@
  * Time: 12:15
  */
 
-namespace Meno\Themes\Models;
+namespace Maslosoft\Themes\Models;
 
 
 class ThemeSet

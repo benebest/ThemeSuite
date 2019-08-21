@@ -56,7 +56,7 @@ HighlightJsPackage::withStyle('rainbow');
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
-					<h6><a href="https://meno.pro/" style="color: white;">Making content management expressive</a></h6>
+					<h6><a href="https://maslosoft.com/" style="color: white;">Making content management expressive</a></h6>
 				</div>
 				<div class="col-sm-6 col-xs-12">
 					<div class="networkIcons">

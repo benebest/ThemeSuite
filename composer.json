@@ -1,8 +1,8 @@
 {
-    "name": "meno-pro/theme-suite",
-    "description": "Meno Theme Creator Suite",
+    "name": "benebest/theme-suite",
+    "description": "Bene Best Theme Creator Suite",
     "type": "library",
-    "homepage": "https://meno.pro/",
+    "homepage": "https://bene.best/",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "autoload": {
     	"psr-4":{
-    		"Meno\\Themes\\": "src"
+    		"Maslosoft\\Themes\\": "src"
     	},
         "files": [
             "src/Aliases.php"
@@ -22,7 +22,7 @@
     	"maslosoft/whitelist": "^1"
     },
     "require-dev": {
-        "codeception/codeception": "^2",
+        "codeception/codeception": "^3",
         "maslosoft/hedron": "^1.1"
     }
 }

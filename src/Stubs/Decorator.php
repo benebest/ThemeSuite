@@ -6,10 +6,10 @@
  * Time: 20:43
  */
 
-namespace Meno\Themes\Stubs;
+namespace Maslosoft\Themes\Stubs;
 
 
-use Meno\Themes\Stubs\Base\StubWidget;
+use Maslosoft\Themes\Stubs\Base\StubWidget;
 
 class Decorator extends StubWidget
 {

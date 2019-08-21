@@ -6,7 +6,7 @@
  * Time: 12:14
  */
 
-namespace Meno\Themes\Helpers;
+namespace Maslosoft\Themes\Helpers;
 
 
 use Symfony\Component\Finder\Finder;

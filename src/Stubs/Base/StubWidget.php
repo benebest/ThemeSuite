@@ -6,7 +6,7 @@
  * Time: 20:47
  */
 
-namespace Meno\Themes\Stubs\Base;
+namespace Maslosoft\Themes\Stubs\Base;
 
 
 class StubWidget extends StubsBase

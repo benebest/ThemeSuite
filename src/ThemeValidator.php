@@ -3,14 +3,13 @@
 /**
  * This software package is licensed under `BSD-3-Clause` license[s].
  *
- * @package meno-pro/theme-validator
  * @license BSD-3-Clause
  *
  * @copyright Copyright (c) Peter Maselkowski <office@maslosoft.com>
- * @link https://meno.pro/
+ * @link https://maslosoft.com/
  */
 
-namespace Meno\Themes;
+namespace Maslosoft\Themes;
 
 
 use function file_get_contents;
@@ -21,7 +20,7 @@ use Psr\Log\NullLogger;
 
 class ThemeValidator implements LoggerAwareInterface
 {
-	const WhitelistId = 'meno.theme.whitelist';
+	const WhitelistId = 'maslosoft.theme.whitelist';
 
 	use LoggerAwareTrait;
 
@@ -38,7 +37,7 @@ class ThemeValidator implements LoggerAwareInterface
 
 		$content = file_get_contents($file);
 
-		$wl = new MenoList;
+		$wl = new ThemeWhitelist;
 		return $wl->check($content);
 	}
 }
