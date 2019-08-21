@@ -2,7 +2,7 @@
 
 namespace Validator;
 
-use Meno\Themes\ThemeValidator;
+use Maslosoft\Themes\ThemeValidator;
 
 class ValidTest extends \Codeception\Test\Unit
 {
