@@ -1,5 +1,13 @@
 <?php
 
+use Maslosoft\Addendum\Utilities\ClassChecker;
+
+// Prevent double execution
+if(defined('THEME_SUITE_CLASS_ALIASES'))
+{
+	return;
+}
+define('THEME_SUITE_CLASS_ALIASES', true);
 (function () {
 
 	if (defined('MASLOSOFT_DF_VERSION'))
@@ -47,6 +55,19 @@
 	{
 		$pos = strrpos($className, '\\') + 1;
 		$shortName = substr($className, $pos);
+
+		// Can already be defined
+		if(ClassChecker::exists($shortName))
+		{
+			continue;
+		}
+
+		// Might not exists if it is external
+		if(!ClassChecker::exists($className))
+		{
+			continue;
+		}
+
 		@class_alias($className, $shortName);
 
 		// Generate stubs for IDE
