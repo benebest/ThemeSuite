@@ -1,7 +1,7 @@
 <!--header-->
 <!-- Auto generated do not modify between `header` and `/header` -->
 
-# <a href="https://bene.best/">Benebest Theme Suite</a>
+#  <a href="https://bene.best/">Benebest Theme Suite</a>
 <a href="https://bene.best/">_Bene Best Theme Creator Suite_</a>
 
 <a href="https://packagist.org/packages/benebest/theme-suite" title="Latest Stable Version">
