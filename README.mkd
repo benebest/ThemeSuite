@@ -1,0 +1,23 @@
+<!--header-->
+<!-- Auto generated do not modify between `header` and `/header` -->
+
+# <a href="https://bene.best/">Benebest Theme Suite</a>
+<a href="https://bene.best/">_Bene Best Theme Creator Suite_</a>
+
+<a href="https://packagist.org/packages/benebest/theme-suite" title="Latest Stable Version">
+<img src="https://poser.pugx.org/benebest/theme-suite/v/stable.svg" alt="Latest Stable Version" style="height: 20px;"/>
+</a>
+<a href="https://packagist.org/packages/benebest/theme-suite" title="License">
+<img src="https://poser.pugx.org/benebest/theme-suite/license.svg" alt="License" style="height: 20px;"/>
+</a>
+
+### Quick Install
+```bash
+composer require benebest/theme-suite
+```
+
+
+
+
+
+<!--/header-->
