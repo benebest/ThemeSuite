@@ -1,7 +1,3 @@
-<?php
-// TODO Add this factory method
-HighlightJsPackage::withStyle('rainbow');
-?>
 <div id="mainWrapper">
 	<div class="container">
 

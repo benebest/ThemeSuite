@@ -23,7 +23,6 @@ return [
 			'methods' => [
 				'Breadcrumbs::widget',
 				'Decorator::copyright',
-				'HighlightJsPackage::withStyle',
 				'SearchDrawer::widget',
 				'LinkBlocks::widget',
 				'PageLinks::widget',
