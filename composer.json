@@ -1,28 +1,30 @@
 {
-    "name": "benebest/theme-suite",
-    "description": "Bene Best Theme Creator Suite",
-    "type": "library",
-    "homepage": "https://bene.best/",
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Peter Maselkowski",
-            "email": "office@maslosoft.com"
-        }
-    ],
-    "autoload": {
-    	"psr-4":{
-    		"Maslosoft\\Themes\\": "src"
-    	},
-        "files": [
-            "src/Aliases.php"
-        ]
-    },
-    "require": {
-    	"maslosoft/whitelist": "^1"
-    },
-    "require-dev": {
-        "codeception/codeception": "^3",
-        "maslosoft/hedron": "^1.1"
-    }
+	"name": "benebest/theme-suite",
+	"description": "Bene Best Theme Creator Suite",
+	"type": "library",
+	"homepage": "https://bene.best/",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Peter Maselkowski",
+			"email": "office@maslosoft.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Maslosoft\\Themes\\": "src"
+		},
+		"files": [
+			"src/Aliases.php"
+		]
+	},
+	"require": {
+		"maslosoft/whitelist": "^1"
+	},
+	"require-dev": {
+		"codeception/codeception": "^5",
+		"codeception/module-asserts": "^3.0",
+		"codeception/module-phpbrowser": "^3.0",
+		"maslosoft/hedron": "^1.1"
+	}
 }
